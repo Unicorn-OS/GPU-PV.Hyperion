@@ -1,0 +1,5 @@
+video:
+  title: 2 or more Gamers with 1 1070 TI GPU?? HyperV GPU-P Demo with Windows 10 Pro 20H2
+  url: https://www.youtube.com/watch?v=3fTUGpVMVdI
+
+from: https://www.reddit.com/r/sysadmin/comments/jym8xz/gpu_partitioning_is_finally_possible_in_hyperv/gwllux9?utm_source=share&utm_medium=web2x&context=3
