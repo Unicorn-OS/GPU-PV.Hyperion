@@ -1,5 +1,7 @@
 $vm = "mineai"
 
+Remove-VMGpuPartitionAdapter -VMName $vm
+
 Add-VMGpuPartitionAdapter -VMName $vm
 Set-VMGpuPartitionAdapter -VMName $vm -MinPartitionVRAM 80000000 -MaxPartitionVRAM 1000000000 -OptimalPartitionVRAM 1000000000 -MinPartitionEncode 80000000 -MaxPartitionEncode 18446744073709551615 -OptimalPartitionEncode 18446744073709551615 -MinPartitionDecode 80000000 -MaxPartitionDecode 1000000000 -OptimalPartitionDecode 1000000000 -MinPartitionCompute 80000000 -MaxPartitionCompute 1000000000 -OptimalPartitionCompute 1000000000
 
