@@ -1,0 +1,18 @@
+$vm = "fivem"
+
+Add-VMGpuPartitionAdapter -VMName $vm
+Set-VMGpuPartitionAdapter -VMName $vm -MinPartitionVRAM 80000000 -MaxPartitionVRAM 100000000 -OptimalPartitionVRAM 100000000 -MinPartitionEncode 80000000 -MaxPartitionEncode 100000000 -OptimalPartitionEncode 100000000 -MinPartitionDecode 80000000 -MaxPartitionDecode 100000000 -OptimalPartitionDecode 100000000 -MinPartitionCompute 80000000 -MaxPartitionCompute 100000000 -OptimalPartitionCompute 100000000
+
+Set-VM -GuestControlledCacheTypes $true -VMName $vm
+Set-VM -LowMemoryMappedIoSpace 1Gb -VMName $vm
+Set-VM -HighMemoryMappedIoSpace 32GB -VMName $vm
+
+# Status: works!
+# HwDb:
+#   gpu: Asus RTX 2080 Ti
+#   cpu: Ryzen R9 3950x
+# Uni.OS:
+#   distro: Windows 10 Enterprise
+#   source: evaluation centre
+#   build: 19041.vb_release.191206-1406
+# https://forum.cfx.re/t/running-fivem-in-a-hyper-v-vm-with-full-gpu-performance-for-testing-gpu-partitioning/1281205
