@@ -15,7 +15,8 @@ Set-VMPartitionableGpu -Name $gpu1 -PartitionCount 1
 
 ## Get GPU.Name
 
-```$gpup = Get-VMPartitionableGpu
+```
+$gpup = Get-VMPartitionableGpu
 echo $gpup.Name
 ```
 
