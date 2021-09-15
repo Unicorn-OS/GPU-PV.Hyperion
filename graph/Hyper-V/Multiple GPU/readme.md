@@ -20,6 +20,11 @@ $gpup = Get-VMPartitionableGpu
 echo $gpup.Name
 ```
 
+## help
+```
+help Add-VMGpuPartitionAdapter
+```
+
 ## example use:
 ```
 Remove-VMGpuPartitionAdapter -VMName $vm
