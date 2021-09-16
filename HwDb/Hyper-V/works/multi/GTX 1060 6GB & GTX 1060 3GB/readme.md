@@ -6,6 +6,9 @@ gpus:
 details:
 "Two vm's were able to use separate cards"
 
+config.tested:
+- 1 gpu in each vm, 2 vms
+
 todo: 3 VMs
 
 
