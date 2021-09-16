@@ -1,9 +1,9 @@
 PS C:\WINDOWS\system32> help Set-VMGpuPartitionAdapter
 
-NAME
+NAME  
     Set-VMGpuPartitionAdapter
 
-SYNTAX
+SYNTAX  
     Set-VMGpuPartitionAdapter [-VMName] <string[]> [-CimSession <CimSession[]>] [-ComputerName <string[]>]
     [-Credential <pscredential[]>] [-Passthru] [-AdapterId <string>] [-MinPartitionVRAM <uint64>] [-MaxPartitionVRAM
     <uint64>] [-OptimalPartitionVRAM <uint64>] [-MinPartitionEncode <uint64>] [-MaxPartitionEncode <uint64>]
@@ -24,10 +24,10 @@ SYNTAX
     [-MaxPartitionCompute <uint64>] [-OptimalPartitionCompute <uint64>] [-WhatIf] [-Confirm]  [<CommonParameters>]
 
 
-ALIASES
+ALIASES  
     None
 
 
-REMARKS
+REMARKS  
     Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
         -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
