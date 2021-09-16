@@ -9,6 +9,7 @@ details:
 todo: 3 VMs
 
 
-tested:
+app.tested:
 - Runescape
 - Nanominer
+- Uningine Heaven
