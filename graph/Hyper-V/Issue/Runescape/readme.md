@@ -1,5 +1,7 @@
-# Runescape can only Start Once per VM boot!
+# Issue: Runescape can only Start Once per VM boot!
 If you exit the game client and try to start it a second time, you'll get: "The RuneScape client suffered from an error"
 
-# Fix:
-Restart entire vm, and then start the game!
+## Fix:
+Restart entire vm, and then start the game.
+
+# Issue: Rebooting vm causes Entire pc Locks Up
