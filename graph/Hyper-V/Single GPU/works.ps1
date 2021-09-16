@@ -1,4 +1,7 @@
+# Tested: RTX 2080 Ti
 $vm = "Windows-10-Enterprise"
+
+$gpu1 = ""
 
 Remove-VMGpuPartitionAdapter -VMName $vm
 
