@@ -21,3 +21,5 @@ PartitionCount : 32
 The first entry is the Radeon onboard graphics, so this gets added if you just run Add-VMGpuPartitionAdapter without any arguments. `Name` in the output above is the `InstanceId` for the Add-VMGpuPartitionAdapter command.
 
 Tested this on my dual-GPU machine and I was able to get my choice of GPU assigned to the VM and working.
+
+- from: https://mu0.cc/2020/08/25/hyperv-gpupv/#comment-12
