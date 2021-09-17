@@ -5,5 +5,6 @@ Render only GPU drivers do not have display outputs attached to them. This is co
 Guest with NVIDIA GeForce GTX 1050 running Unigine Heaven
 
 However, in the latest version of Windows 10 “Iron” insider preview (build 20197 as of this writing), GPU-PV on such GPUs works. The only caveat is that the display output cannot be seen from the built-in Hyper-V video driver: we have to use either a graphic accelerated RDP (which is always the case when we use the Hyper-V’s enhanced session mode) or IddCx drivers. More things regarding IddCx will warrant a separate post :), however, my favorite IddCx driver right now is SpaceDesk, which will stream whatever displayed on the driver over IP.
--from: https://mu0.cc/2020/08/25/hyperv-gpupv/
--relation: https://docs.microsoft.com/en-us/windows-hardware/drivers/display/indirect-display-driver-model-overview
+
+- from: https://mu0.cc/2020/08/25/hyperv-gpupv/
+- relation: https://docs.microsoft.com/en-us/windows-hardware/drivers/display/indirect-display-driver-model-overview, https://www.spacedesk.net/
